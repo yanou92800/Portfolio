@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,AAAA,QAAQ,CAAC;EACtB,OAAO,EAAE,EAAE;EACX,eAAe,EAAE,KAAK;EACtB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,IAAI,EAAE,GAAG;EACT,OAAO,EAAE,CAAC;EACV,OAAO,EAAE,GAAG;CACf",
+    "sources": [
+        "index-light-background.scss"
+    ],
+    "names": [],
+    "file": "index-light-background.css"
+}

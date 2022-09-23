@@ -1,0 +1,98 @@
+@-webkit-keyframes particleAnimation {
+  0% {
+    left: -100px;
+    opacity: 0.7;
+  }
+  50% {
+    left: calc( 100% + 100px);
+    opacity: 0.5;
+  }
+  50.01% {
+    left: calc( 100% + 100px);
+    opacity: 0;
+  }
+  100% {
+    left: calc( 100% + 100px);
+    opacity: 0;
+  }
+}
+
+@keyframes particleAnimation {
+  0% {
+    left: -100px;
+    opacity: 0.7;
+  }
+  50% {
+    left: calc( 100% + 100px);
+    opacity: 0.5;
+  }
+  50.01% {
+    left: calc( 100% + 100px);
+    opacity: 0;
+  }
+  100% {
+    left: calc( 100% + 100px);
+    opacity: 0;
+  }
+}
+
+.p {
+  position: fixed;
+  left: 0px;
+  top: 50px;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  opacity: 0.5;
+  z-index: 1;
+  -webkit-animation-name: particleAnimation;
+          animation-name: particleAnimation;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.p::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100px;
+  right: 1px;
+  top: 0px;
+  height: 1px;
+  z-index: 0;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(255, 255, 255, 0.2)));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.2) 100%);
+}
+
+.p-1 {
+  top: 185px;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+}
+
+.p-2 {
+  top: 99px;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+}
+
+.p-3 {
+  top: 504px;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+}
+
+.p-4 {
+  top: 336px;
+  -webkit-animation-duration: 11s;
+          animation-duration: 11s;
+}
+
+.p-5 {
+  top: 917px;
+  -webkit-animation-duration: 14s;
+          animation-duration: 14s;
+}
+/*# sourceMappingURL=shooting-stars.css.map */

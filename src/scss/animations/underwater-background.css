@@ -1,0 +1,14 @@
+.background-light-about-me {
+  overflow: hidden;
+  background: -webkit-radial-gradient(circle, #69dae2, #1a82f7);
+}
+
+#bgCanvas {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+/*# sourceMappingURL=underwater-background.css.map */

@@ -1,0 +1,63 @@
+@-webkit-keyframes seagullAnimation {
+  0% {
+    left: -100vw;
+    opacity: 1;
+  }
+  50% {
+    left: calc( 100% + 100px);
+    opacity: 1;
+  }
+  50.01% {
+    left: calc( 100% + 100px);
+    opacity: 0;
+  }
+  100% {
+    left: calc( 100% + 100px);
+    opacity: 0;
+  }
+}
+
+@keyframes seagullAnimation {
+  0% {
+    left: -100vw;
+    opacity: 1;
+  }
+  50% {
+    left: calc( 100% + 100px);
+    opacity: 1;
+  }
+  50.01% {
+    left: calc( 100% + 100px);
+    opacity: 0;
+  }
+  100% {
+    left: calc( 100% + 100px);
+    opacity: 0;
+  }
+}
+
+.s {
+  position: fixed;
+  left: -100px;
+  top: 200px;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  z-index: 1;
+  -webkit-transform: scale(0.05);
+          transform: scale(0.05);
+  background-size: contain;
+  -webkit-animation-name: seagullAnimation;
+          animation-name: seagullAnimation;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.seagull-1 {
+  top: -13vh;
+  -webkit-animation-duration: 21s;
+          animation-duration: 21s;
+}
+/*# sourceMappingURL=seagull.css.map */
